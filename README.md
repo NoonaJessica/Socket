@@ -1,4 +1,4 @@
-# Socket.IO chat example
+# Socket.IO chat
 
 ## Features Implemented
 
@@ -21,4 +21,4 @@
 - **Chat rooms** functionality has not been fully implemented.
 - Users can join the app and send messages, but I didn't manage to separate them into different chat rooms where only one-room messages are visible.
 
-![kuva](/chat-example/kuvat/appi.png)
+![kuva](kuvat/appi.png)
