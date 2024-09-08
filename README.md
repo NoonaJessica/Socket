@@ -1,9 +1,24 @@
 # Socket.IO chat example
 
-This is the source code for a very simple chat example used for the [Tutorial](https://socket.io/docs/v4/tutorial/introduction) guide of the Socket.IO website.
+## Features Implemented
 
-You can run this example directly in your browser on:
+### 1. User Messages Broadcasted to Other Users
 
-- [CodeSandbox](https://codesandbox.io/p/sandbox/github/socketio/chat-example?file=index.js)
-- [StackBlitz](https://stackblitz.com/github/socketio/chat-example?file=index.js)
-- [Repl.it](https://repl.it/github/socketio/chat-example)
+- A text input field has been added for users to send messages.
+- Messages are successfully broadcasted in real-time to all users connected to the same port.
+- Each message is displayed on every user's screen.
+
+### 2. Nicknames
+
+- Users can choose a nickname.
+- Messages are broadcasted with the format: `<nickname> says: <message>`.
+- The nickname is visible to all users on the same port.
+
+## Feature Not Implemented
+
+### 3. Chat Rooms
+
+- **Chat rooms** functionality has not been fully implemented.
+- Users can join the app and send messages, but I didn't manage to separate them into different chat rooms where only one-room messages are visible.
+
+![kuva](/chat-example/kuvat/appi.png)
